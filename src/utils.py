@@ -163,9 +163,9 @@ def save_train_vol_images(images, predicts, labels, index, epoch, save_dir='ckpt
     :param labels:      4D long Tensor      bz * temporal * 240 * 240
     :return:
     """
-    images = np.asarray(images.data)
-    predicts = np.asarray(predicts.data)
-    labels = np.asarray(labels)
+    images = np.asarray(images.cpu().data)
+    predicts = np.asarray(predicts.cpu().data)
+    labels = np.asarray(labels.cpu())
 
     if not os.path.exists(save_dir + 'epoch' + str(epoch)):
         os.mkdir(save_dir + 'epoch' + str(epoch))
@@ -184,9 +184,9 @@ def save_train_images(images, predicts, labels, index, epoch, save_dir='ckpt/'):
     :param index:       list                [str] * bz
     :return:
     """
-    images = np.asarray(images.data)
-    predicts = np.asarray(predicts.data)
-    labels = np.asarray(labels)
+    images = np.asarray(images.cpu().data)
+    predicts = np.asarray(predicts.cpu().data)
+    labels = np.asarray(labels.cpu())
 
     if not os.path.exists(save_dir + 'epoch' + str(epoch)):
         os.mkdir(save_dir + 'epoch' + str(epoch))
