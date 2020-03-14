@@ -30,14 +30,14 @@ For each folder, to train the model, simply run
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.         
 
-@inproceedings{xu2019lstm,                  
-  title={LSTM Multi-modal UNet for Brain Tumor Segmentation},                 
-  author={Xu, Fan and Ma, Haoyu and Sun, Junxiao and Wu, Rui and Liu, Xu and Kong, Youyong},            
-  booktitle={2019 IEEE 4th International Conference on Image, Vision and Computing (ICIVC)},               
-  pages={236--240},                  
-  year={2019},                
-  organization={IEEE}               
-}                      
+	@inproceedings{xu2019lstm,                  
+	  title={LSTM Multi-modal UNet for Brain Tumor Segmentation},                 
+	  author={Xu, Fan and Ma, Haoyu and Sun, Junxiao and Wu, Rui and Liu, Xu and Kong, Youyong},            
+	  booktitle={2019 IEEE 4th International Conference on Image, Vision and Computing (ICIVC)},               
+	  pages={236--240},                  
+	  year={2019},                
+	  organization={IEEE}               
+	}                      
 
 
 ## Reference
